@@ -1,0 +1,21 @@
+cfg: /drive1/zhd/finalwork/models/yolov5s.yaml
+data: /drive1/zhd/finalwork/data/ccpd.yaml
+hyp: /drive1/zhd/finalwork/data/hyp.scratch.yaml
+weights: /drive1/zhd/finalwork/weights/yolov5_best.pt
+epochs: 50
+batch_size: 16
+img_size:
+- 640
+- 640
+device: ''
+rect: false
+resume: false
+nosave: false
+notest: false
+noautoanchor: false
+evolve: false
+bucket: ''
+cache_images: false
+name: ''
+multi_scale: true
+single_cls: true
